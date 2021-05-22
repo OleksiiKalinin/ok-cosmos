@@ -96,6 +96,8 @@
     flex: 0 0 214px;
     width: 100%;
     overflow-y: auto;
+    scrollbar-color: #53477D #221A3C;
+    scrollbar-width: thin;
 }
 
 .Table:after {
