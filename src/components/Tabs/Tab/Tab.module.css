@@ -1,0 +1,40 @@
+.Tab {
+    width: 160px;
+    height: 208px;
+    background-repeat: no-repeat;
+    background-size: 100%, contain;
+    filter: drop-shadow(0px 12px 32px rgba(22, 13, 49, 0.4));
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.TabInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    text-align: center;
+    background: linear-gradient(360deg, #2B224A 0%, rgba(43, 34, 74, 0) 100%);
+    -webkit-transition: .3s ease-in;
+    -moz-transition: .3s ease-in;
+    transition: .3s ease-in;
+}
+
+.TabInner > span {
+    position: absolute;
+    bottom: 24px;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    -webkit-transition: .3s ease-in;
+    --transition: .3s ease-in;
+    transition: .3s ease-in;
+}
+
+.TabInner:hover {
+    background: linear-gradient(0deg, rgba(43, 34, 74, 0.92) 7.69%, rgba(70, 58, 113, 0.92) 100%);
+    backdrop-filter: blur(4px);
+}

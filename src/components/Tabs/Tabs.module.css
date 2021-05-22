@@ -1,0 +1,8 @@
+.Tabs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 350px;
+    height: 448px;
+}

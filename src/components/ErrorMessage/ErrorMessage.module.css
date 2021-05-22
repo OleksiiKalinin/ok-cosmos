@@ -1,0 +1,18 @@
+.ErrorMessage {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ErrorMessage > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    color: #D2CBE9;
+    padding-left: 16px;
+}

@@ -1,0 +1,11 @@
+.Footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Inter, sans-serif;
+    color: #8D7FBC;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+}

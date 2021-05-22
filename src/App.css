@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1200px;
+  height: 768px;
+  padding: 10px;
+  z-index: 0;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background: #221A3C;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #53477D;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #221B3A;
+}
